@@ -24,6 +24,8 @@ public class Section {
     @JoinColumn(name = "prerequisite_id")
     private Section prerequisite;
 
+
+
     public Section(){}
 
     public Section(Long id, String title, String description, Integer position, String imgUri, Resource resource, Section prerequisite) {
